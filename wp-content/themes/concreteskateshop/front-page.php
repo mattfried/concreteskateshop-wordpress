@@ -24,14 +24,17 @@
       <div class="col-sm-4">
         <div class="product">
           <div class="product-img">
-            <img class="img-responsive" src="<?php bloginfo('template_directory');?>/img/team1.jpg" alt="">
-            <div class="overlay">
-              <div class="product-social">
-                <a href="#"><i class="fa fa-facebook"></i></a>
-                <a href="#"><i class="fa fa-google-plus"></i></a>
-                <a href="#"><i class="fa fa-twitter"></i></a>
+            <img class="img-responsive" src="<?php bloginfo('template_directory');?>/img/adidas-hoodie.jpeg" alt="">
+            <a class="lightbox" href="<?php bloginfo('template_directory');?>/img/adidas-hoodie.jpeg">
+              <div class="overlay">
+                <div class="product-social">
+                  <span>$49.99</span>
+                  <!-- <a href="#"><i class="fa fa-facebook"></i></a>
+                  <a href="#"><i class="fa fa-google-plus"></i></a>
+                  <a href="#"><i class="fa fa-twitter"></i></a> -->
+                </div>
               </div>
-            </div>
+            </a>
           </div>
           <div class="product-content">
             <h3>John Doe</h3>
@@ -45,14 +48,17 @@
       <div class="col-sm-4">
         <div class="product">
           <div class="product-img">
-            <img class="img-responsive" src="<?php bloginfo('template_directory');?>/img/team2.jpg" alt="">
-            <div class="overlay">
-              <div class="product-social">
-                <a href="#"><i class="fa fa-facebook"></i></a>
-                <a href="#"><i class="fa fa-google-plus"></i></a>
-                <a href="#"><i class="fa fa-twitter"></i></a>
+            <img class="img-responsive" src="<?php bloginfo('template_directory');?>/img/vans-shoes.jpg" alt="">
+            <a class="lightbox" href="<?php bloginfo('template_directory');?>/img/vans-shoes.jpg">
+              <div class="overlay">
+                <div class="product-social">
+                  <span>$49.99</span>
+                  <!-- <a href="#"><i class="fa fa-facebook"></i></a>
+                  <a href="#"><i class="fa fa-google-plus"></i></a>
+                  <a href="#"><i class="fa fa-twitter"></i></a> -->
+                </div>
               </div>
-            </div>
+            <a>
           </div>
           <div class="product-content">
             <h3>John Doe</h3>
@@ -66,14 +72,89 @@
       <div class="col-sm-4">
         <div class="product">
           <div class="product-img">
-            <img class="img-responsive" src="<?php bloginfo('template_directory');?>/img/team3.jpg" alt="">
-            <div class="overlay">
-              <div class="product-social">
-                <a href="#"><i class="fa fa-facebook"></i></a>
-                <a href="#"><i class="fa fa-google-plus"></i></a>
-                <a href="#"><i class="fa fa-twitter"></i></a>
+            <img class="img-responsive" src="<?php bloginfo('template_directory');?>/img/baker-deck.jpg" alt="">
+            <a class="lightbox" href="<?php bloginfo('template_directory');?>/img/baker-deck.jpg">
+              <div class="overlay">
+                <div class="product-social">
+                  <span>$49.99</span>
+                  <!-- <a href="#"><i class="fa fa-facebook"></i></a>
+                  <a href="#"><i class="fa fa-google-plus"></i></a>
+                  <a href="#"><i class="fa fa-twitter"></i></a> -->
+                </div>
               </div>
-            </div>
+            </a>
+          </div>
+          <div class="product-content">
+            <h3>John Doe</h3>
+            <span>Web Designer</span>
+          </div>
+        </div>
+      </div>
+      <!-- /product -->
+
+      <!-- product -->
+      <div class="col-sm-4">
+        <div class="product">
+          <div class="product-img">
+            <img class="img-responsive" src="<?php bloginfo('template_directory');?>/img/santacruz-deck.jpg" alt="">
+            <a class="lightbox" href="<?php bloginfo('template_directory');?>/img/santacruz-deck.jpg">
+              <div class="overlay">
+                <div class="product-social">
+                  <span>$49.99</span>
+                  <!-- <a href="#"><i class="fa fa-facebook"></i></a>
+                  <a href="#"><i class="fa fa-google-plus"></i></a>
+                  <a href="#"><i class="fa fa-twitter"></i></a> -->
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="product-content">
+            <h3>John Doe</h3>
+            <span>Web Designer</span>
+          </div>
+        </div>
+      </div>
+      <!-- /product -->
+
+      <!-- product -->
+      <div class="col-sm-4">
+        <div class="product">
+          <div class="product-img">
+            <img class="img-responsive" src="<?php bloginfo('template_directory');?>/img/emerica-shoes.jpg" alt="">
+            <a class="lightbox" href="<?php bloginfo('template_directory');?>/img/emerica-shoes.jpg">
+              <div class="overlay">
+                <div class="product-social">
+                  <span>$49.99</span>
+                  <!-- <a href="#"><i class="fa fa-facebook"></i></a>
+                  <a href="#"><i class="fa fa-google-plus"></i></a>
+                  <a href="#"><i class="fa fa-twitter"></i></a> -->
+                </div>
+              </div>
+            </a>
+          </div>
+          <div class="product-content">
+            <h3>John Doe</h3>
+            <span>Web Designer</span>
+          </div>
+        </div>
+      </div>
+      <!-- /product -->
+
+      <!-- product -->
+      <div class="col-sm-4">
+        <div class="product">
+          <div class="product-img">
+            <img class="img-responsive" src="<?php bloginfo('template_directory');?>/img/dragon-sunglasses.jpg" alt="">
+            <a class="lightbox" href="<?php bloginfo('template_directory');?>/img/dragon-sunglasses.jpg">
+              <div class="overlay">
+                <div class="product-social">
+                  <span>$49.99</span>
+                  <!-- <a href="#"><i class="fa fa-facebook"></i></a>
+                  <a href="#"><i class="fa fa-google-plus"></i></a>
+                  <a href="#"><i class="fa fa-twitter"></i></a> -->
+                </div>
+              </div>
+            </a>
           </div>
           <div class="product-content">
             <h3>John Doe</h3>
@@ -111,95 +192,125 @@
       </div>
       <!-- /Section header -->
 
-      <!-- Work -->
+      <!-- Brand -->
       <div class="col-md-4 col-xs-6 work">
-        <img class="img-responsive" src="<?php bloginfo('template_directory');?>/img/work1.jpg" alt="">
+        <img class="img-responsive" src="<?php bloginfo('template_directory');?>/img/adidas.jpg" alt="">
         <div class="overlay"></div>
         <div class="work-content">
-          <span>Category</span>
+          <!-- <span>Category</span> -->
           <h3>Lorem ipsum dolor</h3>
           <div class="work-link">
             <a href="#"><i class="fa fa-external-link"></i></a>
-            <a class="lightbox" href="<?php bloginfo('template_directory');?>/img/work1.jpg"><i class="fa fa-search"></i></a>
+            <a class="lightbox" href="<?php bloginfo('template_directory');?>/img/adidas.jpg"><i class="fa fa-search"></i></a>
           </div>
         </div>
       </div>
-      <!-- /Work -->
+      <!-- /Brand -->
 
-      <!-- Work -->
+      <!-- Brand -->
       <div class="col-md-4 col-xs-6 work">
-        <img class="img-responsive" src="<?php bloginfo('template_directory');?>/img/work2.jpg" alt="">
+        <img class="img-responsive" src="<?php bloginfo('template_directory');?>/img/kr3w.jpg" alt="">
         <div class="overlay"></div>
         <div class="work-content">
-          <span>Category</span>
+          <!-- <span>Category</span> -->
           <h3>Lorem ipsum dolor</h3>
           <div class="work-link">
             <a href="#"><i class="fa fa-external-link"></i></a>
-            <a class="lightbox" href="<?php bloginfo('template_directory');?>/img/work2.jpg"><i class="fa fa-search"></i></a>
+            <a class="lightbox" href="<?php bloginfo('template_directory');?>/img/kr3w.jpg"><i class="fa fa-search"></i></a>
           </div>
         </div>
       </div>
-      <!-- /Work -->
+      <!-- /Brand -->
 
-      <!-- Work -->
+      <!-- Brand -->
       <div class="col-md-4 col-xs-6 work">
-        <img class="img-responsive" src="<?php bloginfo('template_directory');?>/img/work3.jpg" alt="">
+        <img class="img-responsive" src="<?php bloginfo('template_directory');?>/img/vans.jpg" alt="">
         <div class="overlay"></div>
         <div class="work-content">
-          <span>Category</span>
+          <!-- <span>Category</span> -->
           <h3>Lorem ipsum dolor</h3>
           <div class="work-link">
             <a href="#"><i class="fa fa-external-link"></i></a>
-            <a class="lightbox" href="<?php bloginfo('template_directory');?>/img/work3.jpg"><i class="fa fa-search"></i></a>
+            <a class="lightbox" href="<?php bloginfo('template_directory');?>/img/vans.jpg"><i class="fa fa-search"></i></a>
           </div>
         </div>
       </div>
-      <!-- /Work -->
+      <!-- /Brand -->
 
-      <!-- Work -->
+      <!-- Brand -->
       <div class="col-md-4 col-xs-6 work">
-        <img class="img-responsive" src="<?php bloginfo('template_directory');?>/img/work4.jpg" alt="">
+        <img class="img-responsive" src="<?php bloginfo('template_directory');?>/img/rds.jpg" alt="">
         <div class="overlay"></div>
         <div class="work-content">
-          <span>Category</span>
+          <!-- <span>Category</span> -->
           <h3>Lorem ipsum dolor</h3>
           <div class="work-link">
             <a href="#"><i class="fa fa-external-link"></i></a>
-            <a class="lightbox" href="<?php bloginfo('template_directory');?>/img/work4.jpg"><i class="fa fa-search"></i></a>
+            <a class="lightbox" href="<?php bloginfo('template_directory');?>/img/rds.jpg"><i class="fa fa-search"></i></a>
           </div>
         </div>
       </div>
-      <!-- /Work -->
+      <!-- /Brand -->
 
-      <!-- Work -->
+      <!-- Brand -->
       <div class="col-md-4 col-xs-6 work">
-        <img class="img-responsive" src="<?php bloginfo('template_directory');?>/img/work5.jpg" alt="">
+        <img class="img-responsive" src="<?php bloginfo('template_directory');?>/img/emerica.jpg" alt="">
         <div class="overlay"></div>
         <div class="work-content">
-          <span>Category</span>
+          <!-- <span>Category</span> -->
           <h3>Lorem ipsum dolor</h3>
           <div class="work-link">
             <a href="#"><i class="fa fa-external-link"></i></a>
-            <a class="lightbox" href="<?php bloginfo('template_directory');?>/img/work5.jpg"><i class="fa fa-search"></i></a>
+            <a class="lightbox" href="<?php bloginfo('template_directory');?>/img/emerica.jpg"><i class="fa fa-search"></i></a>
           </div>
         </div>
       </div>
-      <!-- /Work -->
+      <!-- /Brand -->
 
-      <!-- Work -->
+      <!-- Brand -->
       <div class="col-md-4 col-xs-6 work">
-        <img class="img-responsive" src="<?php bloginfo('template_directory');?>/img/work6.jpg" alt="">
+        <img class="img-responsive" src="<?php bloginfo('template_directory');?>/img/dragon.png" alt="">
         <div class="overlay"></div>
         <div class="work-content">
-          <span>Category</span>
+          <!-- <span>Category</span> -->
           <h3>Lorem ipsum dolor</h3>
           <div class="work-link">
             <a href="#"><i class="fa fa-external-link"></i></a>
-            <a class="lightbox" href="<?php bloginfo('template_directory');?>/img/work6.jpg"><i class="fa fa-search"></i></a>
+            <a class="lightbox" href="<?php bloginfo('template_directory');?>/img/dragon.png"><i class="fa fa-search"></i></a>
           </div>
         </div>
       </div>
-      <!-- /Work -->
+      <!-- /Brand -->
+
+      <!-- Brand -->
+      <div class="col-md-4 col-xs-6 work">
+        <img class="img-responsive" src="<?php bloginfo('template_directory');?>/img/baker.jpg" alt="">
+        <div class="overlay"></div>
+        <div class="work-content">
+          <!-- <span>Category</span> -->
+          <h3>Lorem ipsum dolor</h3>
+          <div class="work-link">
+            <a href="#"><i class="fa fa-external-link"></i></a>
+            <a class="lightbox" href="<?php bloginfo('template_directory');?>/img/baker.jpg"><i class="fa fa-search"></i></a>
+          </div>
+        </div>
+      </div>
+      <!-- /Brand -->
+
+      <!-- Brand -->
+      <div class="col-md-4 col-xs-6 work">
+        <img class="img-responsive" src="<?php bloginfo('template_directory');?>/img/santa-cruz.jpg" alt="">
+        <div class="overlay"></div>
+        <div class="work-content">
+          <!-- <span>Category</span> -->
+          <h3>Santa Cruz</h3>
+          <div class="work-link">
+            <a href="#"><i class="fa fa-external-link"></i></a>
+            <a class="lightbox" href="<?php bloginfo('template_directory');?>/img/santa-cruz.jpg"><i class="fa fa-search"></i></a>
+          </div>
+        </div>
+      </div>
+      <!-- /Brand -->
 
     </div>
     <!-- /Row -->
@@ -244,10 +355,11 @@
       <!-- About slider -->
       <div class="col-md-6">
         <div id="about-slider" class="owl-carousel owl-theme">
-          <img class="img-responsive" src="<?php bloginfo('template_directory');?>/img/about1.jpg" alt="">
-          <img class="img-responsive" src="<?php bloginfo('template_directory');?>/img/about2.jpg" alt="">
-          <img class="img-responsive" src="<?php bloginfo('template_directory');?>/img/about1.jpg" alt="">
-          <img class="img-responsive" src="<?php bloginfo('template_directory');?>/img/about2.jpg" alt="">
+          <img class="img-responsive" src="<?php bloginfo('template_directory');?>/img/team1.jpg" alt="">
+          <img class="img-responsive" src="<?php bloginfo('template_directory');?>/img/team2.jpg" alt="">
+          <img class="img-responsive" src="<?php bloginfo('template_directory');?>/img/team3.jpg" alt="">
+          <img class="img-responsive" src="<?php bloginfo('template_directory');?>/img/team4.jpg" alt="">
+          <img class="img-responsive" src="<?php bloginfo('template_directory');?>/img/team5.jpg" alt="">
         </div>
       </div>
       <!-- /About slider -->
@@ -437,7 +549,7 @@
         <div class="contact">
           <i class="fa fa-phone"></i>
           <h3>Phone</h3>
-          <p>512-421-3940</p>
+          <p>780-409-6339</p>
         </div>
       </div>
       <!-- /contact -->
@@ -447,7 +559,7 @@
         <div class="contact">
           <i class="fa fa-envelope"></i>
           <h3>Email</h3>
-          <p>email@support.com</p>
+          <p>contact@concreteskateshop.com</p>
         </div>
       </div>
       <!-- /contact -->
@@ -457,13 +569,17 @@
         <div class="contact">
           <i class="fa fa-map-marker"></i>
           <h3>Address</h3>
-          <p>1739 Bubby Drive</p>
+          <p>
+            4873 Jasper Avenue
+            <br/>
+            Edmonton, AB T5J 3N2
+          </p>
         </div>
       </div>
       <!-- /contact -->
 
       <!-- contact form -->
-      <div class="col-md-8 col-md-offset-2">
+      <!-- <div class="col-md-8 col-md-offset-2">
         <form class="contact-form">
           <input type="text" class="input" placeholder="Name">
           <input type="email" class="input" placeholder="Email">
@@ -471,7 +587,7 @@
           <textarea class="input" placeholder="Message"></textarea>
           <button class="main-btn">Send message</button>
         </form>
-      </div>
+      </div> -->
       <!-- /contact form -->
 
     </div>

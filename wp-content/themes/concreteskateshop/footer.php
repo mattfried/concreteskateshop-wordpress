@@ -28,7 +28,7 @@
 
         <!-- footer copyright -->
         <div class="footer-copyright">
-          <p>Copyright © 2019. All Rights Reserved. Designed by <a href="https://colorlib.com" target="_blank">Colorlib</a></p>
+          <p>© 2019 Concrete Skateboard Shop. &nbsp; Developed by <a href="https://mattfried.ca/" target="_blank">Matt Fried</a></p>
         </div>
         <!-- /footer copyright -->
 

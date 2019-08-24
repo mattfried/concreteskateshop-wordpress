@@ -1091,6 +1091,15 @@ header {
     transition: 0.2s opacity;
 }
 
+.product .product-social span {
+  display: block;
+  line-height: 50px;
+  width: 100px;
+  text-align: center;
+  background-color: #6195FF;
+  color: #FFF;
+}
+
 .product .product-social a {
     display: block;
     line-height: 50px;

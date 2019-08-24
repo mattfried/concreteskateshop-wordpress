@@ -27,7 +27,7 @@
   <!-- Header -->
   <header id="home">
     <!-- Background Image -->
-    <div class="bg-img" style="background-image: url('<?php bloginfo('template_directory');?>/img/background1.jpg');">
+    <div class="bg-img" style="background-image: url('<?php bloginfo('template_directory');?>/img/hero-bg.jpg');">
       <div class="overlay"></div>
     </div>
     <!-- /Background Image -->
