@@ -59,11 +59,11 @@
           <li><a href="#products">Products</a></li>
           <li><a href="#brands">Brands</a></li>
           <li><a href="#about">About</a></li>
-          <li class="has-dropdown"><a href="#blog">Blog</a>
+          <!-- <li class="has-dropdown"><a href="#blog">Blog</a>
             <ul class="dropdown">
               <li><a href="blog-single.html">blog post</a></li>
             </ul>
-          </li>
+          </li> -->
           <li><a href="#contact">Contact</a></li>
         </ul>
         <!-- /Main navigation -->

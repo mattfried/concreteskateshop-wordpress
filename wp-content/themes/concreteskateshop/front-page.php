@@ -198,10 +198,10 @@
         <div class="overlay"></div>
         <div class="work-content">
           <!-- <span>Category</span> -->
-          <h3>Lorem ipsum dolor</h3>
+          <h3>Adidas</h3>
           <div class="work-link">
-            <a href="#"><i class="fa fa-external-link"></i></a>
-            <a class="lightbox" href="<?php bloginfo('template_directory');?>/img/adidas.jpg"><i class="fa fa-search"></i></a>
+            <a href="https://www.adidas.ca/en/skateboarding" target="_blank"><i class="fa fa-external-link"></i></a>
+            <!-- <a class="lightbox" href="<?php bloginfo('template_directory');?>/img/adidas.jpg"><i class="fa fa-search"></i></a> -->
           </div>
         </div>
       </div>
@@ -213,10 +213,10 @@
         <div class="overlay"></div>
         <div class="work-content">
           <!-- <span>Category</span> -->
-          <h3>Lorem ipsum dolor</h3>
+          <h3>Kr3w</h3>
           <div class="work-link">
-            <a href="#"><i class="fa fa-external-link"></i></a>
-            <a class="lightbox" href="<?php bloginfo('template_directory');?>/img/kr3w.jpg"><i class="fa fa-search"></i></a>
+            <a href="https://kr3wdenim.com/" target="_blank"><i class="fa fa-external-link"></i></a>
+            <!-- <a class="lightbox" href="<?php bloginfo('template_directory');?>/img/kr3w.jpg"><i class="fa fa-search"></i></a> -->
           </div>
         </div>
       </div>
@@ -228,10 +228,10 @@
         <div class="overlay"></div>
         <div class="work-content">
           <!-- <span>Category</span> -->
-          <h3>Lorem ipsum dolor</h3>
+          <h3>Vans</h3>
           <div class="work-link">
-            <a href="#"><i class="fa fa-external-link"></i></a>
-            <a class="lightbox" href="<?php bloginfo('template_directory');?>/img/vans.jpg"><i class="fa fa-search"></i></a>
+            <a href="https://www.vans.ca/" target="_blank"><i class="fa fa-external-link"></i></a>
+            <!-- <a class="lightbox" href="<?php bloginfo('template_directory');?>/img/vans.jpg"><i class="fa fa-search"></i></a> -->
           </div>
         </div>
       </div>
@@ -243,10 +243,10 @@
         <div class="overlay"></div>
         <div class="work-content">
           <!-- <span>Category</span> -->
-          <h3>Lorem ipsum dolor</h3>
+          <h3>Red Dragon Supply</h3>
           <div class="work-link">
-            <a href="#"><i class="fa fa-external-link"></i></a>
-            <a class="lightbox" href="<?php bloginfo('template_directory');?>/img/rds.jpg"><i class="fa fa-search"></i></a>
+            <a href="https://reddragon.ca/" target="_blank"><i class="fa fa-external-link"></i></a>
+            <!-- <a class="lightbox" href="<?php bloginfo('template_directory');?>/img/rds.jpg"><i class="fa fa-search"></i></a> -->
           </div>
         </div>
       </div>
@@ -258,10 +258,10 @@
         <div class="overlay"></div>
         <div class="work-content">
           <!-- <span>Category</span> -->
-          <h3>Lorem ipsum dolor</h3>
+          <h3>Emerica</h3>
           <div class="work-link">
-            <a href="#"><i class="fa fa-external-link"></i></a>
-            <a class="lightbox" href="<?php bloginfo('template_directory');?>/img/emerica.jpg"><i class="fa fa-search"></i></a>
+            <a href="https://www.emerica.com/" target="_blank"><i class="fa fa-external-link"></i></a>
+            <!-- <a class="lightbox" href="<?php bloginfo('template_directory');?>/img/emerica.jpg"><i class="fa fa-search"></i></a> -->
           </div>
         </div>
       </div>
@@ -273,10 +273,10 @@
         <div class="overlay"></div>
         <div class="work-content">
           <!-- <span>Category</span> -->
-          <h3>Lorem ipsum dolor</h3>
+          <h3>Dragon</h3>
           <div class="work-link">
-            <a href="#"><i class="fa fa-external-link"></i></a>
-            <a class="lightbox" href="<?php bloginfo('template_directory');?>/img/dragon.png"><i class="fa fa-search"></i></a>
+            <a href="https://www.dragonalliance.com/" target="_blank"><i class="fa fa-external-link"></i></a>
+            <!-- <a class="lightbox" href="<?php bloginfo('template_directory');?>/img/dragon.png"><i class="fa fa-search"></i></a> -->
           </div>
         </div>
       </div>
@@ -288,10 +288,10 @@
         <div class="overlay"></div>
         <div class="work-content">
           <!-- <span>Category</span> -->
-          <h3>Lorem ipsum dolor</h3>
+          <h3>Baker</h3>
           <div class="work-link">
-            <a href="#"><i class="fa fa-external-link"></i></a>
-            <a class="lightbox" href="<?php bloginfo('template_directory');?>/img/baker.jpg"><i class="fa fa-search"></i></a>
+            <a href="https://bakerskateboards.com" target="_blank"><i class="fa fa-external-link"></i></a>
+            <!-- <a class="lightbox" href="<?php bloginfo('template_directory');?>/img/baker.jpg"><i class="fa fa-search"></i></a> -->
           </div>
         </div>
       </div>
@@ -305,8 +305,8 @@
           <!-- <span>Category</span> -->
           <h3>Santa Cruz</h3>
           <div class="work-link">
-            <a href="#"><i class="fa fa-external-link"></i></a>
-            <a class="lightbox" href="<?php bloginfo('template_directory');?>/img/santa-cruz.jpg"><i class="fa fa-search"></i></a>
+            <a href="https://santacruzskateboards.com/" target="_blank"><i class="fa fa-external-link"></i></a>
+            <!-- <a class="lightbox" href="<?php bloginfo('template_directory');?>/img/santa-cruz.jpg"><i class="fa fa-search"></i></a> -->
           </div>
         </div>
       </div>
@@ -381,7 +381,7 @@
 <div id="banner" class="section lg-padding">
 
   <!-- Background Image -->
-  <div class="bg-img" style="background-image: url('<?php bloginfo('template_directory');?>/img/background2.jpg');">
+  <div class="bg-img" style="background-image: url('<?php bloginfo('template_directory');?>/img/banner-bg.jpg');">
     <div class="overlay"></div>
   </div>
   <!-- /Background Image -->
@@ -446,22 +446,22 @@
 
 
 <!-- Blog -->
-<div id="blog" class="section md-padding bg-grey">
+<!-- <div id="blog" class="section md-padding bg-grey"> -->
 
   <!-- Container -->
-  <div class="container">
+  <!-- <div class="container"> -->
 
     <!-- Row -->
-    <div class="row">
+    <!-- <div class="row"> -->
 
       <!-- Section header -->
-      <div class="section-header text-center">
+      <!-- <div class="section-header text-center">
         <h2 class="title">Recents news</h2>
-      </div>
+      </div> -->
       <!-- /Section header -->
 
       <!-- blog -->
-      <div class="col-md-4">
+      <!-- <div class="col-md-4">
         <div class="blog">
           <div class="blog-img">
             <img class="img-responsive" src="<?php bloginfo('template_directory');?>/img/blog1.jpg" alt="">
@@ -469,7 +469,7 @@
           <div class="blog-content">
             <ul class="blog-meta">
               <li><i class="fa fa-user"></i>John doe</li>
-              <li><i class="fa fa-clock-o"></i>18 Oct</li>
+              <li><i class="fa fa-clock-o"></i>18 May/19</li>
               <li><i class="fa fa-comments"></i>57</li>
             </ul>
             <h3>Molestie at elementum eu facilisis sed odio</h3>
@@ -477,11 +477,11 @@
             <a href="blog-single.html">Read more</a>
           </div>
         </div>
-      </div>
+      </div> -->
       <!-- /blog -->
 
       <!-- blog -->
-      <div class="col-md-4">
+      <!-- <div class="col-md-4">
         <div class="blog">
           <div class="blog-img">
             <img class="img-responsive" src="<?php bloginfo('template_directory');?>/img/blog2.jpg" alt="">
@@ -497,11 +497,11 @@
             <a href="blog-single.html">Read more</a>
           </div>
         </div>
-      </div>
+      </div> -->
       <!-- /blog -->
 
       <!-- blog -->
-      <div class="col-md-4">
+      <!-- <div class="col-md-4">
         <div class="blog">
           <div class="blog-img">
             <img class="img-responsive"  src="<?php bloginfo('template_directory');?>/img/blog3.jpg" alt="">
@@ -517,16 +517,16 @@
             <a href="blog-single.html">Read more</a>
           </div>
         </div>
-      </div>
+      </div> -->
       <!-- /blog -->
 
-    </div>
+    <!-- </div> -->
     <!-- /Row -->
 
-  </div>
+  <!-- </div> -->
   <!-- /Container -->
 
-</div>
+<!-- </div> -->
 <!-- /Blog -->
 
 <!-- Contact -->
