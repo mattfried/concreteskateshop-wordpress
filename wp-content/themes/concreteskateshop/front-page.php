@@ -3,8 +3,10 @@
 
 
 
-<!-- About -->
-<div id="about" class="section md-padding">
+
+
+<!-- Featured Products -->
+<div id="products" class="section md-padding">
 
   <!-- Container -->
   <div class="container">
@@ -14,42 +16,72 @@
 
       <!-- Section header -->
       <div class="section-header text-center">
-        <h2 class="title">Welcome to Website</h2>
+        <h2 class="title">Featured Products</h2>
       </div>
       <!-- /Section header -->
 
-      <!-- about -->
-      <div class="col-md-4">
-        <div class="about">
-          <i class="fa fa-cogs"></i>
-          <h3>Fully Customizible</h3>
-          <p>Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero sit amet.</p>
-          <a href="#">Read more</a>
+      <!-- product -->
+      <div class="col-sm-4">
+        <div class="product">
+          <div class="product-img">
+            <img class="img-responsive" src="<?php bloginfo('template_directory');?>/img/team1.jpg" alt="">
+            <div class="overlay">
+              <div class="product-social">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-google-plus"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="product-content">
+            <h3>John Doe</h3>
+            <span>Web Designer</span>
+          </div>
         </div>
       </div>
-      <!-- /about -->
+      <!-- /product -->
 
-      <!-- about -->
-      <div class="col-md-4">
-        <div class="about">
-          <i class="fa fa-magic"></i>
-          <h3>Awesome Features</h3>
-          <p>Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero sit amet.</p>
-          <a href="#">Read more</a>
+      <!-- product -->
+      <div class="col-sm-4">
+        <div class="product">
+          <div class="product-img">
+            <img class="img-responsive" src="<?php bloginfo('template_directory');?>/img/team2.jpg" alt="">
+            <div class="overlay">
+              <div class="product-social">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-google-plus"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="product-content">
+            <h3>John Doe</h3>
+            <span>Web Designer</span>
+          </div>
         </div>
       </div>
-      <!-- /about -->
+      <!-- /product -->
 
-      <!-- about -->
-      <div class="col-md-4">
-        <div class="about">
-          <i class="fa fa-mobile"></i>
-          <h3>Fully Responsive</h3>
-          <p>Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero sit amet.</p>
-          <a href="#">Read more</a>
+      <!-- product -->
+      <div class="col-sm-4">
+        <div class="product">
+          <div class="product-img">
+            <img class="img-responsive" src="<?php bloginfo('template_directory');?>/img/team3.jpg" alt="">
+            <div class="overlay">
+              <div class="product-social">
+                <a href="#"><i class="fa fa-facebook"></i></a>
+                <a href="#"><i class="fa fa-google-plus"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="product-content">
+            <h3>John Doe</h3>
+            <span>Web Designer</span>
+          </div>
         </div>
       </div>
-      <!-- /about -->
+      <!-- /product -->
 
     </div>
     <!-- /Row -->
@@ -58,11 +90,14 @@
   <!-- /Container -->
 
 </div>
-<!-- /About -->
+<!-- /Featured Products -->
 
 
-<!-- Portfolio -->
-<div id="portfolio" class="section md-padding bg-grey">
+
+
+
+<!-- Brands -->
+<div id="brands" class="section md-padding bg-grey">
 
   <!-- Container -->
   <div class="container">
@@ -72,7 +107,7 @@
 
       <!-- Section header -->
       <div class="section-header text-center">
-        <h2 class="title">Featured Works</h2>
+        <h2 class="title">Our Brands</h2>
       </div>
       <!-- /Section header -->
 
@@ -173,95 +208,14 @@
   <!-- /Container -->
 
 </div>
-<!-- /Portfolio -->
-
-<!-- Service -->
-<div id="service" class="section md-padding">
-
-  <!-- Container -->
-  <div class="container">
-
-    <!-- Row -->
-    <div class="row">
-
-      <!-- Section header -->
-      <div class="section-header text-center">
-        <h2 class="title">What we offer</h2>
-      </div>
-      <!-- /Section header -->
-
-      <!-- service -->
-      <div class="col-md-4 col-sm-6">
-        <div class="service">
-          <i class="fa fa-diamond"></i>
-          <h3>App Development</h3>
-          <p>Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero.</p>
-        </div>
-      </div>
-      <!-- /service -->
-
-      <!-- service -->
-      <div class="col-md-4 col-sm-6">
-        <div class="service">
-          <i class="fa fa-rocket"></i>
-          <h3>Graphic Design</h3>
-          <p>Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero.</p>
-        </div>
-      </div>
-      <!-- /service -->
-
-      <!-- service -->
-      <div class="col-md-4 col-sm-6">
-        <div class="service">
-          <i class="fa fa-cogs"></i>
-          <h3>Creative Idea</h3>
-          <p>Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero.</p>
-        </div>
-      </div>
-      <!-- /service -->
-
-      <!-- service -->
-      <div class="col-md-4 col-sm-6">
-        <div class="service">
-          <i class="fa fa-diamond"></i>
-          <h3>Marketing</h3>
-          <p>Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero.</p>
-        </div>
-      </div>
-      <!-- /service -->
-
-      <!-- service -->
-      <div class="col-md-4 col-sm-6">
-        <div class="service">
-          <i class="fa fa-pencil"></i>
-          <h3>Awesome Support</h3>
-          <p>Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero.</p>
-        </div>
-      </div>
-      <!-- /service -->
-
-      <!-- service -->
-      <div class="col-md-4 col-sm-6">
-        <div class="service">
-          <i class="fa fa-flask"></i>
-          <h3>Brand Design</h3>
-          <p>Maecenas tempus tellus eget condimentum rhoncus sem quam semper libero.</p>
-        </div>
-      </div>
-      <!-- /service -->
-
-    </div>
-    <!-- /Row -->
-
-  </div>
-  <!-- /Container -->
-
-</div>
-<!-- /Service -->
+<!-- /Brands -->
 
 
-<!-- Why Choose Us -->
-<div id="features" class="section md-padding bg-grey">
+
+
+
+<!-- About -->
+<div id="about" class="section md-padding bg-grey">
 
   <!-- Container -->
   <div class="container">
@@ -272,25 +226,18 @@
       <!-- why choose us content -->
       <div class="col-md-6">
         <div class="section-header">
-          <h2 class="title">Why Choose Us</h2>
+          <h2 class="title">Who Are We?</h2>
         </div>
-        <p>Molestie at elementum eu facilisis sed odio. Scelerisque in dictum non consectetur a erat. Aliquam id diam maecenas ultricies mi eget mauris. Ultrices sagittis orci a scelerisque purus.</p>
-        <div class="feature">
+        <p>
+          Molestie at elementum eu facilisis sed odio. Scelerisque in dictum non consectetur a erat. Aliquam id diam maecenas ultricies mi eget mauris. Ultrices sagittis orci a scelerisque purus.
+        </p>
+        <p>
+          Molestie at elementum eu facilisis sed odio. Scelerisque in dictum non consectetur a erat. Aliquam id diam maecenas ultricies mi eget mauris. Ultrices sagittis orci a scelerisque purus.
+        </p>
+        <!-- <div class="feature">
           <i class="fa fa-check"></i>
           <p>Quis varius quam quisque id diam vel quam elementum.</p>
-        </div>
-        <div class="feature">
-          <i class="fa fa-check"></i>
-          <p>Mauris augue neque gravida in fermentum.</p>
-        </div>
-        <div class="feature">
-          <i class="fa fa-check"></i>
-          <p>Orci phasellus egestas tellus rutrum.</p>
-        </div>
-        <div class="feature">
-          <i class="fa fa-check"></i>
-          <p>Nec feugiat nisl pretium fusce id velit ut tortor pretium.</p>
-        </div>
+        </div> -->
       </div>
       <!-- /why choose us content -->
 
@@ -312,7 +259,10 @@
   <!-- /Container -->
 
 </div>
-<!-- /Why Choose Us -->
+<!-- /About -->
+
+
+
 
 
 <!-- Banner -->
@@ -377,254 +327,11 @@
   <!-- /Container -->
 
 </div>
-<!-- /Numbers -->
-
-<!-- Pricing -->
-<div id="pricing" class="section md-padding">
-
-  <!-- Container -->
-  <div class="container">
-
-    <!-- Row -->
-    <div class="row">
-
-      <!-- Section header -->
-      <div class="section-header text-center">
-        <h2 class="title">Pricing Table</h2>
-      </div>
-      <!-- /Section header -->
-
-      <!-- pricing -->
-      <div class="col-sm-4">
-        <div class="pricing">
-          <div class="price-head">
-            <span class="price-title">Basic plan</span>
-            <div class="price">
-              <h3>$9<span class="duration">/ month</span></h3>
-            </div>
-          </div>
-          <ul class="price-content">
-            <li>
-              <p>1GB Disk Space</p>
-            </li>
-            <li>
-              <p>100 Email Account</p>
-            </li>
-            <li>
-              <p>24/24 Support</p>
-            </li>
-          </ul>
-          <div class="price-btn">
-            <button class="outline-btn">Purchase now</button>
-          </div>
-        </div>
-      </div>
-      <!-- /pricing -->
-
-      <!-- pricing -->
-      <div class="col-sm-4">
-        <div class="pricing">
-          <div class="price-head">
-            <span class="price-title">Silver plan</span>
-            <div class="price">
-              <h3>$19<span class="duration">/ month</span></h3>
-            </div>
-          </div>
-          <ul class="price-content">
-            <li>
-              <p>1GB Disk Space</p>
-            </li>
-            <li>
-              <p>100 Email Account</p>
-            </li>
-            <li>
-              <p>24/24 Support</p>
-            </li>
-          </ul>
-          <div class="price-btn">
-            <button class="outline-btn">Purchase now</button>
-          </div>
-        </div>
-      </div>
-      <!-- /pricing -->
-
-      <!-- pricing -->
-      <div class="col-sm-4">
-        <div class="pricing">
-          <div class="price-head">
-            <span class="price-title">Gold plan</span>
-            <div class="price">
-              <h3>$39<span class="duration">/ month</span></h3>
-            </div>
-          </div>
-          <ul class="price-content">
-            <li>
-              <p>1GB Disk Space</p>
-            </li>
-            <li>
-              <p>100 Email Account</p>
-            </li>
-            <li>
-              <p>24/24 Support</p>
-            </li>
-          </ul>
-          <div class="price-btn">
-            <button class="outline-btn">Purchase now</button>
-          </div>
-        </div>
-      </div>
-      <!-- /pricing -->
-
-    </div>
-    <!-- Row -->
-
-  </div>
-  <!-- /Container -->
-
-</div>
-<!-- /Pricing -->
+<!-- /Banner -->
 
 
-<!-- Testimonial -->
-<div id="testimonial" class="section md-padding">
 
-  <!-- Background Image -->
-  <div class="bg-img" style="background-image: url('<?php bloginfo('template_directory');?>/img/background3.jpg');">
-    <div class="overlay"></div>
-  </div>
-  <!-- /Background Image -->
 
-  <!-- Container -->
-  <div class="container">
-
-    <!-- Row -->
-    <div class="row">
-
-      <!-- Testimonial slider -->
-      <div class="col-md-10 col-md-offset-1">
-        <div id="testimonial-slider" class="owl-carousel owl-theme">
-
-          <!-- testimonial -->
-          <div class="testimonial">
-            <div class="testimonial-meta">
-              <img src="<?php bloginfo('template_directory');?>/img/perso1.jpg" alt="">
-              <h3 class="white-text">John Doe</h3>
-              <span>Web Designer</span>
-            </div>
-            <p class="white-text">Molestie at elementum eu facilisis sed odio. Scelerisque in dictum non consectetur a erat. Aliquam id diam maecenas ultricies mi eget mauris.</p>
-          </div>
-          <!-- /testimonial -->
-
-          <!-- testimonial -->
-          <div class="testimonial">
-            <div class="testimonial-meta">
-              <img src="<?php bloginfo('template_directory');?>/img/perso2.jpg" alt="">
-              <h3 class="white-text">John Doe</h3>
-              <span>Web Designer</span>
-            </div>
-            <p class="white-text">Molestie at elementum eu facilisis sed odio. Scelerisque in dictum non consectetur a erat. Aliquam id diam maecenas ultricies mi eget mauris.</p>
-          </div>
-          <!-- /testimonial -->
-
-        </div>
-      </div>
-      <!-- /Testimonial slider -->
-
-    </div>
-    <!-- /Row -->
-
-  </div>
-  <!-- /Container -->
-
-</div>
-<!-- /Testimonial -->
-
-<!-- Team -->
-<div id="team" class="section md-padding">
-
-  <!-- Container -->
-  <div class="container">
-
-    <!-- Row -->
-    <div class="row">
-
-      <!-- Section header -->
-      <div class="section-header text-center">
-        <h2 class="title">Our Team</h2>
-      </div>
-      <!-- /Section header -->
-
-      <!-- team -->
-      <div class="col-sm-4">
-        <div class="team">
-          <div class="team-img">
-            <img class="img-responsive" src="<?php bloginfo('template_directory');?>/img/team1.jpg" alt="">
-            <div class="overlay">
-              <div class="team-social">
-                <a href="#"><i class="fa fa-facebook"></i></a>
-                <a href="#"><i class="fa fa-google-plus"></i></a>
-                <a href="#"><i class="fa fa-twitter"></i></a>
-              </div>
-            </div>
-          </div>
-          <div class="team-content">
-            <h3>John Doe</h3>
-            <span>Web Designer</span>
-          </div>
-        </div>
-      </div>
-      <!-- /team -->
-
-      <!-- team -->
-      <div class="col-sm-4">
-        <div class="team">
-          <div class="team-img">
-            <img class="img-responsive" src="<?php bloginfo('template_directory');?>/img/team2.jpg" alt="">
-            <div class="overlay">
-              <div class="team-social">
-                <a href="#"><i class="fa fa-facebook"></i></a>
-                <a href="#"><i class="fa fa-google-plus"></i></a>
-                <a href="#"><i class="fa fa-twitter"></i></a>
-              </div>
-            </div>
-          </div>
-          <div class="team-content">
-            <h3>John Doe</h3>
-            <span>Web Designer</span>
-          </div>
-        </div>
-      </div>
-      <!-- /team -->
-
-      <!-- team -->
-      <div class="col-sm-4">
-        <div class="team">
-          <div class="team-img">
-            <img class="img-responsive" src="<?php bloginfo('template_directory');?>/img/team3.jpg" alt="">
-            <div class="overlay">
-              <div class="team-social">
-                <a href="#"><i class="fa fa-facebook"></i></a>
-                <a href="#"><i class="fa fa-google-plus"></i></a>
-                <a href="#"><i class="fa fa-twitter"></i></a>
-              </div>
-            </div>
-          </div>
-          <div class="team-content">
-            <h3>John Doe</h3>
-            <span>Web Designer</span>
-          </div>
-        </div>
-      </div>
-      <!-- /team -->
-
-    </div>
-    <!-- /Row -->
-
-  </div>
-  <!-- /Container -->
-
-</div>
-<!-- /Team -->
 
 <!-- Blog -->
 <div id="blog" class="section md-padding bg-grey">
@@ -721,7 +428,7 @@
 
       <!-- Section-header -->
       <div class="section-header text-center">
-        <h2 class="title">Get in touch</h2>
+        <h2 class="title">Get In Touch</h2>
       </div>
       <!-- /Section-header -->
 

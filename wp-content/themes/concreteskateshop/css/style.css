@@ -18,13 +18,13 @@ Table OF Contents
 3 > Navigation
 4 > Header
 5 > About
-6 > Portfolio
+6 > Brands
 7 > Services
 8 >  Why choose us
 9 >  Banner
 10 > Pricing
 11 > Testimonial
-12 > Team
+12 > Product
 13 > Blog
 14 > Blog post
 15 > Blog sidebar
@@ -674,7 +674,7 @@ header {
 
 
 /*------------------------------------*\
-	Portfolio
+	Brands
 \*------------------------------------*/
 
 .work {
@@ -1002,17 +1002,17 @@ header {
 
 
 /*------------------------------------*\
-	Team
+	Product
 \*------------------------------------*/
 
-.team {
+.product {
     position: relative;
     background-color: #F4F4F4;
     padding: 40px 20px;
     margin: 15px 0px;
 }
 
-.team::after {
+.product::after {
     content: "";
     background-color: #1C1D21;
     position: absolute;
@@ -1025,21 +1025,21 @@ header {
     transition: 0.2s height;
 }
 
-.team:hover:after {
+.product:hover:after {
     height: 100%;
 }
 
-.team-img {
+.product-img {
     position: relative;
     margin-bottom: 20px;
     z-index: 11;
 }
 
-.team-img>img {
+.product-img>img {
   width: 100%;
 }
 
-.team .overlay {
+.product .overlay {
     background: #1C1D21;
     position: absolute;
     bottom: 0;
@@ -1051,38 +1051,38 @@ header {
     transition: 0.2s opacity;
 }
 
-.team:hover .overlay {
+.product:hover .overlay {
     opacity: 0.8;
 }
 
-.team .team-content {
+.product .product-content {
     text-align: center;
     position: relative;
     z-index: 11;
 }
 
-.team .team-content h3 {
+.product .product-content h3 {
     margin-bottom: 10px;
     -webkit-transition: 0.2s color;
     transition: 0.2s color;
 }
 
-.team .team-content span {
+.product .product-content span {
     font-size: 14px;
     text-transform: uppercase;
     -webkit-transition: 0.2s color;
     transition: 0.2s color;
 }
 
-.team:hover .team-content h3 {
+.product:hover .product-content h3 {
     color: #FFF;
 }
 
-.team:hover .team-content span {
+.product:hover .product-content span {
     color: #6195FF;
 }
 
-.team .team-social {
+.product .product-social {
     position: absolute;
     top: 0;
     right: 0;
@@ -1091,7 +1091,7 @@ header {
     transition: 0.2s opacity;
 }
 
-.team .team-social a {
+.product .product-social a {
     display: block;
     line-height: 50px;
     width: 50px;
@@ -1100,7 +1100,7 @@ header {
     color: #FFF;
 }
 
-.team:hover .team-social {
+.product:hover .product-social {
     opacity: 1;
 }
 
