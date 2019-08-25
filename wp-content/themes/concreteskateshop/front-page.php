@@ -22,15 +22,15 @@
 
       <!-- Insert product1 data for custom fields -->
       <?php $product1 = get_field('product1'); ?>
+
       <!-- product -->
       <div class="col-sm-4">
         <div class="product">
           <div class="product-img">
-            <img class="img-responsive" src="<?php bloginfo('template_directory');?>/img/adidas-hoodie.jpeg" alt="">
-            <a class="lightbox" href="<?php bloginfo('template_directory');?>/img/adidas-hoodie.jpeg">
+            <img class="img-responsive" src="<?php echo $product1['image']; ?>" alt="">
+            <a class="lightbox" href="<?php echo $product1['image']; ?>">
               <div class="overlay">
                 <div class="product-social">
-                  <a href="#"><i class="fa fa-external-link"></i></a>
                   <!-- <a href="#"><i class="fa fa-facebook"></i></a>
                   <a href="#"><i class="fa fa-google-plus"></i></a>
                   <a href="#"><i class="fa fa-twitter"></i></a> -->
@@ -46,17 +46,17 @@
       </div>
       <!-- /product -->
 
+
       <!-- Insert product2 data for custom fields -->
       <?php $product2 = get_field('product2'); ?>
       <!-- product -->
       <div class="col-sm-4">
         <div class="product">
           <div class="product-img">
-            <img class="img-responsive" src="<?php bloginfo('template_directory');?>/img/vans-shoes.jpg" alt="">
-            <a class="lightbox" href="<?php bloginfo('template_directory');?>/img/vans-shoes.jpg">
+            <img class="img-responsive" src="<?php echo $product2['image']; ?>" alt="">
+            <a class="lightbox" href="<?php echo $product2['image']; ?>">
               <div class="overlay">
                 <div class="product-social">
-                  <a href="#"><i class="fa fa-external-link"></i></a>
                   <!-- <a href="#"><i class="fa fa-facebook"></i></a>
                   <a href="#"><i class="fa fa-google-plus"></i></a>
                   <a href="#"><i class="fa fa-twitter"></i></a> -->
@@ -78,11 +78,10 @@
       <div class="col-sm-4">
         <div class="product">
           <div class="product-img">
-            <img class="img-responsive" src="<?php bloginfo('template_directory');?>/img/baker-deck.jpg" alt="">
-            <a class="lightbox" href="<?php bloginfo('template_directory');?>/img/baker-deck.jpg">
+            <img class="img-responsive" src="<?php echo $product3['image']; ?>" alt="">
+            <a class="lightbox" href="<?php echo $product3['image']; ?>">
               <div class="overlay">
                 <div class="product-social">
-                  <a href="#"><i class="fa fa-external-link"></i></a>
                   <!-- <a href="#"><i class="fa fa-facebook"></i></a>
                   <a href="#"><i class="fa fa-google-plus"></i></a>
                   <a href="#"><i class="fa fa-twitter"></i></a> -->
@@ -104,11 +103,10 @@
       <div class="col-sm-4">
         <div class="product">
           <div class="product-img">
-            <img class="img-responsive" src="<?php bloginfo('template_directory');?>/img/santacruz-deck.jpg" alt="">
-            <a class="lightbox" href="<?php bloginfo('template_directory');?>/img/santacruz-deck.jpg">
+            <img class="img-responsive" src="<?php echo $product4['image']; ?>" alt="">
+            <a class="lightbox" href="<?php echo $product4['image']; ?>">
               <div class="overlay">
                 <div class="product-social">
-                  <a href="#"><i class="fa fa-external-link"></i></a>
                   <!-- <a href="#"><i class="fa fa-facebook"></i></a>
                   <a href="#"><i class="fa fa-google-plus"></i></a>
                   <a href="#"><i class="fa fa-twitter"></i></a> -->
@@ -130,11 +128,10 @@
       <div class="col-sm-4">
         <div class="product">
           <div class="product-img">
-            <img class="img-responsive" src="<?php bloginfo('template_directory');?>/img/emerica-shoes.jpg" alt="">
-            <a class="lightbox" href="<?php bloginfo('template_directory');?>/img/emerica-shoes.jpg">
+            <img class="img-responsive" src="<?php echo $product5['image']; ?>" alt="">
+            <a class="lightbox" href="<?php echo $product5['image']; ?>">
               <div class="overlay">
                 <div class="product-social">
-                  <a href="#"><i class="fa fa-external-link"></i></a>
                   <!-- <a href="#"><i class="fa fa-facebook"></i></a>
                   <a href="#"><i class="fa fa-google-plus"></i></a>
                   <a href="#"><i class="fa fa-twitter"></i></a> -->
@@ -156,11 +153,10 @@
       <div class="col-sm-4">
         <div class="product">
           <div class="product-img">
-            <img class="img-responsive" src="<?php bloginfo('template_directory');?>/img/dragon-sunglasses.jpg" alt="">
-            <a class="lightbox" href="<?php bloginfo('template_directory');?>/img/dragon-sunglasses.jpg">
+            <img class="img-responsive" src="<?php echo $product6['image']; ?>" alt="">
+            <a class="lightbox" href="<?php echo $product6['image']; ?>">
               <div class="overlay">
                 <div class="product-social">
-                  <a href="#"><i class="fa fa-external-link"></i></a>
                   <!-- <a href="#"><i class="fa fa-facebook"></i></a>
                   <a href="#"><i class="fa fa-google-plus"></i></a>
                   <a href="#"><i class="fa fa-twitter"></i></a> -->
