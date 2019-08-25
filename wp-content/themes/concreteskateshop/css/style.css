@@ -273,6 +273,8 @@ input[type="text"]:focus, input[type="email"]:focus, input[type="password"]:focu
 }
 
 .navbar-brand .logo, .navbar-brand .logo-alt {
+    padding-top: 0.25em;
+    padding-bottom: 0.25em;
     max-height: 50px;
     display: block;
 }
@@ -1091,15 +1093,6 @@ header {
     transition: 0.2s opacity;
 }
 
-.product .product-social span {
-  display: block;
-  line-height: 50px;
-  width: 100px;
-  text-align: center;
-  background-color: #a79344;
-  color: #FFF;
-}
-
 .product .product-social a {
     display: block;
     line-height: 50px;
@@ -1470,6 +1463,7 @@ header {
 }
 
 .footer-logo {
+    padding-top: 1.5em;
     text-align: center;
     margin-bottom: 40px;
 }

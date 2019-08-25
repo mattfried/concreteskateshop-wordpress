@@ -20,6 +20,8 @@
       </div>
       <!-- /Section header -->
 
+      <!-- Insert product1 data for custom fields -->
+      <?php $product1 = get_field('product1'); ?>
       <!-- product -->
       <div class="col-sm-4">
         <div class="product">
@@ -28,7 +30,7 @@
             <a class="lightbox" href="<?php bloginfo('template_directory');?>/img/adidas-hoodie.jpeg">
               <div class="overlay">
                 <div class="product-social">
-                  <span>$49.99</span>
+                  <a href="#"><i class="fa fa-external-link"></i></a>
                   <!-- <a href="#"><i class="fa fa-facebook"></i></a>
                   <a href="#"><i class="fa fa-google-plus"></i></a>
                   <a href="#"><i class="fa fa-twitter"></i></a> -->
@@ -37,13 +39,15 @@
             </a>
           </div>
           <div class="product-content">
-            <h3>John Doe</h3>
-            <span>Web Designer</span>
+            <h3>$<?php echo $product1['price']; ?></h3>
+            <span><?php echo $product1['description']; ?></span>
           </div>
         </div>
       </div>
       <!-- /product -->
 
+      <!-- Insert product2 data for custom fields -->
+      <?php $product2 = get_field('product2'); ?>
       <!-- product -->
       <div class="col-sm-4">
         <div class="product">
@@ -52,22 +56,24 @@
             <a class="lightbox" href="<?php bloginfo('template_directory');?>/img/vans-shoes.jpg">
               <div class="overlay">
                 <div class="product-social">
-                  <span>$49.99</span>
+                  <a href="#"><i class="fa fa-external-link"></i></a>
                   <!-- <a href="#"><i class="fa fa-facebook"></i></a>
                   <a href="#"><i class="fa fa-google-plus"></i></a>
                   <a href="#"><i class="fa fa-twitter"></i></a> -->
                 </div>
               </div>
-            <a>
+            </a>
           </div>
           <div class="product-content">
-            <h3>John Doe</h3>
-            <span>Web Designer</span>
+            <h3>$<?php echo $product2['price']; ?></h3>
+            <span><?php echo $product2['description']; ?></span>
           </div>
         </div>
       </div>
       <!-- /product -->
 
+      <!-- Insert product3 data for custom fields -->
+      <?php $product3 = get_field('product3'); ?>
       <!-- product -->
       <div class="col-sm-4">
         <div class="product">
@@ -76,7 +82,7 @@
             <a class="lightbox" href="<?php bloginfo('template_directory');?>/img/baker-deck.jpg">
               <div class="overlay">
                 <div class="product-social">
-                  <span>$49.99</span>
+                  <a href="#"><i class="fa fa-external-link"></i></a>
                   <!-- <a href="#"><i class="fa fa-facebook"></i></a>
                   <a href="#"><i class="fa fa-google-plus"></i></a>
                   <a href="#"><i class="fa fa-twitter"></i></a> -->
@@ -85,13 +91,15 @@
             </a>
           </div>
           <div class="product-content">
-            <h3>John Doe</h3>
-            <span>Web Designer</span>
+            <h3>$<?php echo $product3['price']; ?></h3>
+            <span><?php echo $product3['description']; ?></span>
           </div>
         </div>
       </div>
       <!-- /product -->
 
+      <!-- Insert product4 data for custom fields -->
+      <?php $product4 = get_field('product4'); ?>
       <!-- product -->
       <div class="col-sm-4">
         <div class="product">
@@ -100,7 +108,7 @@
             <a class="lightbox" href="<?php bloginfo('template_directory');?>/img/santacruz-deck.jpg">
               <div class="overlay">
                 <div class="product-social">
-                  <span>$49.99</span>
+                  <a href="#"><i class="fa fa-external-link"></i></a>
                   <!-- <a href="#"><i class="fa fa-facebook"></i></a>
                   <a href="#"><i class="fa fa-google-plus"></i></a>
                   <a href="#"><i class="fa fa-twitter"></i></a> -->
@@ -109,13 +117,15 @@
             </a>
           </div>
           <div class="product-content">
-            <h3>John Doe</h3>
-            <span>Web Designer</span>
+            <h3>$<?php echo $product4['price']; ?></h3>
+            <span><?php echo $product4['description']; ?></span>
           </div>
         </div>
       </div>
       <!-- /product -->
 
+      <!-- Insert product5 data for custom fields -->
+      <?php $product5 = get_field('product5'); ?>
       <!-- product -->
       <div class="col-sm-4">
         <div class="product">
@@ -124,7 +134,7 @@
             <a class="lightbox" href="<?php bloginfo('template_directory');?>/img/emerica-shoes.jpg">
               <div class="overlay">
                 <div class="product-social">
-                  <span>$49.99</span>
+                  <a href="#"><i class="fa fa-external-link"></i></a>
                   <!-- <a href="#"><i class="fa fa-facebook"></i></a>
                   <a href="#"><i class="fa fa-google-plus"></i></a>
                   <a href="#"><i class="fa fa-twitter"></i></a> -->
@@ -133,13 +143,15 @@
             </a>
           </div>
           <div class="product-content">
-            <h3>John Doe</h3>
-            <span>Web Designer</span>
+            <h3>$<?php echo $product5['price']; ?></h3>
+            <span><?php echo $product5['description']; ?></span>
           </div>
         </div>
       </div>
       <!-- /product -->
 
+      <!-- Insert product6 data for custom fields -->
+      <?php $product6 = get_field('product6'); ?>
       <!-- product -->
       <div class="col-sm-4">
         <div class="product">
@@ -148,7 +160,7 @@
             <a class="lightbox" href="<?php bloginfo('template_directory');?>/img/dragon-sunglasses.jpg">
               <div class="overlay">
                 <div class="product-social">
-                  <span>$49.99</span>
+                  <a href="#"><i class="fa fa-external-link"></i></a>
                   <!-- <a href="#"><i class="fa fa-facebook"></i></a>
                   <a href="#"><i class="fa fa-google-plus"></i></a>
                   <a href="#"><i class="fa fa-twitter"></i></a> -->
@@ -157,8 +169,8 @@
             </a>
           </div>
           <div class="product-content">
-            <h3>John Doe</h3>
-            <span>Web Designer</span>
+            <h3>$<?php echo $product6['price']; ?></h3>
+            <span><?php echo $product6['description']; ?></span>
           </div>
         </div>
       </div>
@@ -273,7 +285,7 @@
         <div class="overlay"></div>
         <div class="work-content">
           <!-- <span>Category</span> -->
-          <h3>Dragon</h3>
+          <h3>Dragon Alliance</h3>
           <div class="work-link">
             <a href="https://www.dragonalliance.com/" target="_blank"><i class="fa fa-external-link"></i></a>
             <!-- <a class="lightbox" href="<?php bloginfo('template_directory');?>/img/dragon.png"><i class="fa fa-search"></i></a> -->
