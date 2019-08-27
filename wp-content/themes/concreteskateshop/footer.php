@@ -15,14 +15,20 @@
         </div>
         <!-- /footer logo -->
 
+        <!-- Insert socila media data for custom fields -->
+        <?php
+        $fb_link = get_field('facebook_link');
+        $inst_link = get_field('instagram_link');
+        $yout_link = get_field('youtube_link');
+        ?>
         <!-- footer follow -->
         <ul class="footer-follow">
-          <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+          <li><a href="<?php echo $fb_link; ?>" target="_blank"><i class="fa fa-facebook"></i></a></li>
           <!-- <li><a href="#"><i class="fa fa-twitter"></i></a></li> -->
           <!-- <li><a href="#"><i class="fa fa-google-plus"></i></a></li> -->
-          <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+          <li><a href="<?php echo $inst_link; ?>" target="_blank"><i class="fa fa-instagram"></i></a></li>
           <!-- <li><a href="#"><i class="fa fa-linkedin"></i></a></li> -->
-          <li><a href="#"><i class="fa fa-youtube"></i></a></li>
+          <li><a href="<?php echo $yout_link; ?>" target="_blank"><i class="fa fa-youtube"></i></a></li>
         </ul>
         <!-- /footer follow -->
 

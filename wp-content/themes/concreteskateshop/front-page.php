@@ -20,10 +20,12 @@
       </div>
       <!-- /Section header -->
 
+
+
+      <!-- product -->
       <!-- Insert product1 data for custom fields -->
       <?php $product1 = get_field('product1'); ?>
 
-      <!-- product -->
       <div class="col-sm-4">
         <div class="product">
           <div class="product-img">
@@ -47,9 +49,11 @@
       <!-- /product -->
 
 
+
+      <!-- product -->
       <!-- Insert product2 data for custom fields -->
       <?php $product2 = get_field('product2'); ?>
-      <!-- product -->
+
       <div class="col-sm-4">
         <div class="product">
           <div class="product-img">
@@ -72,9 +76,10 @@
       </div>
       <!-- /product -->
 
+
+      <!-- product -->
       <!-- Insert product3 data for custom fields -->
       <?php $product3 = get_field('product3'); ?>
-      <!-- product -->
       <div class="col-sm-4">
         <div class="product">
           <div class="product-img">
@@ -97,9 +102,11 @@
       </div>
       <!-- /product -->
 
+
+      <!-- product -->
       <!-- Insert product4 data for custom fields -->
       <?php $product4 = get_field('product4'); ?>
-      <!-- product -->
+
       <div class="col-sm-4">
         <div class="product">
           <div class="product-img">
@@ -122,9 +129,11 @@
       </div>
       <!-- /product -->
 
+
+      <!-- product -->
       <!-- Insert product5 data for custom fields -->
       <?php $product5 = get_field('product5'); ?>
-      <!-- product -->
+
       <div class="col-sm-4">
         <div class="product">
           <div class="product-img">
@@ -147,9 +156,11 @@
       </div>
       <!-- /product -->
 
+
+      <!-- product -->
       <!-- Insert product6 data for custom fields -->
       <?php $product6 = get_field('product6'); ?>
-      <!-- product -->
+
       <div class="col-sm-4">
         <div class="product">
           <div class="product-img">
@@ -200,120 +211,151 @@
       </div>
       <!-- /Section header -->
 
+
       <!-- Brand -->
+      <!-- Insert brand1 data for custom fields -->
+      <?php $brand1 = get_field('brand1'); ?>
+
       <div class="col-md-4 col-xs-6 work">
-        <img class="img-responsive" src="<?php bloginfo('template_directory');?>/img/adidas.jpg" alt="">
+        <img class="img-responsive" src="<?php echo $brand1['image']; ?>" alt="">
         <div class="overlay"></div>
         <div class="work-content">
           <!-- <span>Category</span> -->
-          <h3>Adidas</h3>
+          <h3><?php echo $brand1['name']; ?></h3>
           <div class="work-link">
-            <a href="https://www.adidas.ca/en/skateboarding" target="_blank"><i class="fa fa-external-link"></i></a>
+            <a href="<?php echo $brand1['brand_link']; ?>" target="_blank"><i class="fa fa-external-link"></i></a>
             <!-- <a class="lightbox" href="<?php bloginfo('template_directory');?>/img/adidas.jpg"><i class="fa fa-search"></i></a> -->
           </div>
         </div>
       </div>
       <!-- /Brand -->
 
+
       <!-- Brand -->
+      <!-- Insert brand1 data for custom fields -->
+      <?php $brand2 = get_field('brand2'); ?>
+
       <div class="col-md-4 col-xs-6 work">
-        <img class="img-responsive" src="<?php bloginfo('template_directory');?>/img/kr3w.jpg" alt="">
+        <img class="img-responsive" src="<?php echo $brand2['image']; ?>" alt="">
         <div class="overlay"></div>
         <div class="work-content">
           <!-- <span>Category</span> -->
-          <h3>Kr3w</h3>
+          <h3><?php echo $brand2['name']; ?></h3>
           <div class="work-link">
-            <a href="https://kr3wdenim.com/" target="_blank"><i class="fa fa-external-link"></i></a>
+            <a href="<?php echo $brand2['brand_link']; ?>" target="_blank"><i class="fa fa-external-link"></i></a>
             <!-- <a class="lightbox" href="<?php bloginfo('template_directory');?>/img/kr3w.jpg"><i class="fa fa-search"></i></a> -->
           </div>
         </div>
       </div>
       <!-- /Brand -->
 
+
       <!-- Brand -->
+      <!-- Insert brand1 data for custom fields -->
+      <?php $brand3 = get_field('brand3'); ?>
+
       <div class="col-md-4 col-xs-6 work">
-        <img class="img-responsive" src="<?php bloginfo('template_directory');?>/img/vans.jpg" alt="">
+        <img class="img-responsive" src="<?php echo $brand3['image']; ?>" alt="">
         <div class="overlay"></div>
         <div class="work-content">
           <!-- <span>Category</span> -->
-          <h3>Vans</h3>
+          <h3><?php echo $brand3['name']; ?></h3>
           <div class="work-link">
-            <a href="https://www.vans.ca/" target="_blank"><i class="fa fa-external-link"></i></a>
+            <a href="<?php echo $brand3['brand_link']; ?>" target="_blank"><i class="fa fa-external-link"></i></a>
             <!-- <a class="lightbox" href="<?php bloginfo('template_directory');?>/img/vans.jpg"><i class="fa fa-search"></i></a> -->
           </div>
         </div>
       </div>
       <!-- /Brand -->
 
+
       <!-- Brand -->
+      <!-- Insert brand1 data for custom fields -->
+      <?php $brand4 = get_field('brand4'); ?>
+
       <div class="col-md-4 col-xs-6 work">
-        <img class="img-responsive" src="<?php bloginfo('template_directory');?>/img/rds.jpg" alt="">
+        <img class="img-responsive" src="<?php echo $brand4['image']; ?>" alt="">
         <div class="overlay"></div>
         <div class="work-content">
           <!-- <span>Category</span> -->
-          <h3>Red Dragon Supply</h3>
+          <h3><?php echo $brand4['name']; ?></h3>
           <div class="work-link">
-            <a href="https://reddragon.ca/" target="_blank"><i class="fa fa-external-link"></i></a>
+            <a href="<?php echo $brand4['brand_link']; ?>" target="_blank"><i class="fa fa-external-link"></i></a>
             <!-- <a class="lightbox" href="<?php bloginfo('template_directory');?>/img/rds.jpg"><i class="fa fa-search"></i></a> -->
           </div>
         </div>
       </div>
       <!-- /Brand -->
 
+
       <!-- Brand -->
+      <!-- Insert brand1 data for custom fields -->
+      <?php $brand5 = get_field('brand5'); ?>
+
       <div class="col-md-4 col-xs-6 work">
-        <img class="img-responsive" src="<?php bloginfo('template_directory');?>/img/emerica.jpg" alt="">
+        <img class="img-responsive" src="<?php echo $brand5['image']; ?>" alt="">
         <div class="overlay"></div>
         <div class="work-content">
           <!-- <span>Category</span> -->
-          <h3>Emerica</h3>
+          <h3><?php echo $brand5['name']; ?></h3>
           <div class="work-link">
-            <a href="https://www.emerica.com/" target="_blank"><i class="fa fa-external-link"></i></a>
+            <a href="<?php echo $brand5['brand_link']; ?>" target="_blank"><i class="fa fa-external-link"></i></a>
             <!-- <a class="lightbox" href="<?php bloginfo('template_directory');?>/img/emerica.jpg"><i class="fa fa-search"></i></a> -->
           </div>
         </div>
       </div>
       <!-- /Brand -->
 
+
       <!-- Brand -->
+      <!-- Insert brand1 data for custom fields -->
+      <?php $brand6 = get_field('brand6'); ?>
+
       <div class="col-md-4 col-xs-6 work">
-        <img class="img-responsive" src="<?php bloginfo('template_directory');?>/img/dragon.png" alt="">
+        <img class="img-responsive" src="<?php echo $brand6['image']; ?>" alt="">
         <div class="overlay"></div>
         <div class="work-content">
           <!-- <span>Category</span> -->
-          <h3>Dragon Alliance</h3>
+          <h3><?php echo $brand6['name']; ?></h3>
           <div class="work-link">
-            <a href="https://www.dragonalliance.com/" target="_blank"><i class="fa fa-external-link"></i></a>
+            <a href="<?php echo $brand6['brand_link']; ?>" target="_blank"><i class="fa fa-external-link"></i></a>
             <!-- <a class="lightbox" href="<?php bloginfo('template_directory');?>/img/dragon.png"><i class="fa fa-search"></i></a> -->
           </div>
         </div>
       </div>
       <!-- /Brand -->
 
+
       <!-- Brand -->
+      <!-- Insert brand1 data for custom fields -->
+      <?php $brand7 = get_field('brand7'); ?>
+
       <div class="col-md-4 col-xs-6 work">
-        <img class="img-responsive" src="<?php bloginfo('template_directory');?>/img/baker.jpg" alt="">
+        <img class="img-responsive" src="<?php echo $brand7['image']; ?>" alt="">
         <div class="overlay"></div>
         <div class="work-content">
           <!-- <span>Category</span> -->
-          <h3>Baker</h3>
+          <h3><?php echo $brand7['name']; ?></h3>
           <div class="work-link">
-            <a href="https://bakerskateboards.com" target="_blank"><i class="fa fa-external-link"></i></a>
+            <a href="<?php echo $brand7['brand_link']; ?>" target="_blank"><i class="fa fa-external-link"></i></a>
             <!-- <a class="lightbox" href="<?php bloginfo('template_directory');?>/img/baker.jpg"><i class="fa fa-search"></i></a> -->
           </div>
         </div>
       </div>
       <!-- /Brand -->
 
+
       <!-- Brand -->
+      <!-- Insert brand1 data for custom fields -->
+      <?php $brand8 = get_field('brand8'); ?>
       <div class="col-md-4 col-xs-6 work">
-        <img class="img-responsive" src="<?php bloginfo('template_directory');?>/img/santa-cruz.jpg" alt="">
+        <img class="img-responsive" src="<?php echo $brand8['image']; ?>" alt="">
         <div class="overlay"></div>
         <div class="work-content">
           <!-- <span>Category</span> -->
-          <h3>Santa Cruz</h3>
+          <h3><?php echo $brand8['name']; ?></h3>
           <div class="work-link">
-            <a href="https://santacruzskateboards.com/" target="_blank"><i class="fa fa-external-link"></i></a>
+            <a href="<?php echo $brand8['brand_link']; ?>" target="_blank"><i class="fa fa-external-link"></i></a>
             <!-- <a class="lightbox" href="<?php bloginfo('template_directory');?>/img/santa-cruz.jpg"><i class="fa fa-search"></i></a> -->
           </div>
         </div>
@@ -347,12 +389,12 @@
         <div class="section-header">
           <h2 class="title">Who Are We?</h2>
         </div>
-        <p>
-          Molestie at elementum eu facilisis sed odio. Scelerisque in dictum non consectetur a erat. Aliquam id diam maecenas ultricies mi eget mauris. Ultrices sagittis orci a scelerisque purus.
-        </p>
-        <p>
-          Molestie at elementum eu facilisis sed odio. Scelerisque in dictum non consectetur a erat. Aliquam id diam maecenas ultricies mi eget mauris. Ultrices sagittis orci a scelerisque purus.
-        </p>
+
+          <!-- Insert About Paragraph 1 data for custom fields -->
+          <?php echo get_field('about_paragraph_1'); ?>
+
+          <!-- Insert About Paragraph 2 data for custom fields -->
+          <?php echo get_field('about_paragraph_2'); ?>
         <!-- <div class="feature">
           <i class="fa fa-check"></i>
           <p>Quis varius quam quisque id diam vel quam elementum.</p>
@@ -395,10 +437,10 @@
   <!-- /Background Image -->
 
   <!-- Container -->
-  <!-- <div class="container"> -->
+  <div class="container">
 
     <!-- Row -->
-    <!-- <div class="row"> -->
+    <div class="row">
 
       <!-- number -->
       <!-- <div class="col-sm-3 col-xs-6">
@@ -421,29 +463,29 @@
       <!-- /number -->
 
       <!-- number -->
-      <!-- <div class="col-sm-3 col-xs-6">
+      <div class="col-xs-6">
         <div class="number">
           <i class="fa fa-coffee"></i>
-          <h3 class="white-text"><span class="counter">154</span>K</h3>
-          <span class="white-text">Cups of Coffee</span>
+          <!-- <h3 class="white-text"><span class="counter">154</span>K</h3> -->
+          <h4 class="white-text">All Day Free Coffee</h4>
         </div>
-      </div> -->
+      </div>
       <!-- /number -->
 
       <!-- number -->
-      <!-- <div class="col-sm-3 col-xs-6">
+      <div class="col-xs-6">
         <div class="number">
           <i class="fa fa-file"></i>
-          <h3 class="white-text"><span class="counter">45</span></h3>
-          <span class="white-text">Projects completed</span>
+          <!-- <h3 class="white-text"><span class="counter">45</span></h3> -->
+          <h4 class="white-text">Free Stickers with Purchase</h4>
         </div>
-      </div> -->
+      </div>
       <!-- /number -->
 
-    <!-- </div> -->
+    </div>
     <!-- /Row -->
 
-  <!-- </div> -->
+  </div>
   <!-- /Container -->
 
 </div>
