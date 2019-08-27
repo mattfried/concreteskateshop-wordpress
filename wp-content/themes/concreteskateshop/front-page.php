@@ -29,7 +29,7 @@
       <div class="col-sm-4">
         <div class="product">
           <div class="product-img">
-            <img class="img-responsive" src="<?php echo $product1['image']; ?>" alt="">
+            <img class="img-responsive" src="<?php echo $product1['image']; ?>" alt=" green adidas hoodie">
             <a class="lightbox" href="<?php echo $product1['image']; ?>">
               <div class="overlay">
                 <div class="product-social">
@@ -57,7 +57,7 @@
       <div class="col-sm-4">
         <div class="product">
           <div class="product-img">
-            <img class="img-responsive" src="<?php echo $product2['image']; ?>" alt="">
+            <img class="img-responsive" src="<?php echo $product2['image']; ?>" alt="vans shoes">
             <a class="lightbox" href="<?php echo $product2['image']; ?>">
               <div class="overlay">
                 <div class="product-social">
@@ -83,7 +83,7 @@
       <div class="col-sm-4">
         <div class="product">
           <div class="product-img">
-            <img class="img-responsive" src="<?php echo $product3['image']; ?>" alt="">
+            <img class="img-responsive" src="<?php echo $product3['image']; ?>" alt="red skateboard deck with baker letters">
             <a class="lightbox" href="<?php echo $product3['image']; ?>">
               <div class="overlay">
                 <div class="product-social">
@@ -110,7 +110,7 @@
       <div class="col-sm-4">
         <div class="product">
           <div class="product-img">
-            <img class="img-responsive" src="<?php echo $product4['image']; ?>" alt="">
+            <img class="img-responsive" src="<?php echo $product4['image']; ?>" alt="green skateboard deck with santa cruz mouth hand">
             <a class="lightbox" href="<?php echo $product4['image']; ?>">
               <div class="overlay">
                 <div class="product-social">
@@ -137,7 +137,7 @@
       <div class="col-sm-4">
         <div class="product">
           <div class="product-img">
-            <img class="img-responsive" src="<?php echo $product5['image']; ?>" alt="">
+            <img class="img-responsive" src="<?php echo $product5['image']; ?>" alt="tortoise dragon sunglasses">
             <a class="lightbox" href="<?php echo $product5['image']; ?>">
               <div class="overlay">
                 <div class="product-social">
@@ -164,7 +164,7 @@
       <div class="col-sm-4">
         <div class="product">
           <div class="product-img">
-            <img class="img-responsive" src="<?php echo $product6['image']; ?>" alt="">
+            <img class="img-responsive" src="<?php echo $product6['image']; ?>" alt="maroon emerica shoes">
             <a class="lightbox" href="<?php echo $product6['image']; ?>">
               <div class="overlay">
                 <div class="product-social">
@@ -217,7 +217,7 @@
       <?php $brand1 = get_field('brand1'); ?>
 
       <div class="col-md-4 col-xs-6 work">
-        <img class="img-responsive" src="<?php echo $brand1['image']; ?>" alt="">
+        <img class="img-responsive" src="<?php echo $brand1['image']; ?>" alt="adidas logo">
         <div class="overlay"></div>
         <div class="work-content">
           <!-- <span>Category</span> -->
@@ -236,7 +236,7 @@
       <?php $brand2 = get_field('brand2'); ?>
 
       <div class="col-md-4 col-xs-6 work">
-        <img class="img-responsive" src="<?php echo $brand2['image']; ?>" alt="">
+        <img class="img-responsive" src="<?php echo $brand2['image']; ?>" alt="kr3w logo">
         <div class="overlay"></div>
         <div class="work-content">
           <!-- <span>Category</span> -->
@@ -255,7 +255,7 @@
       <?php $brand3 = get_field('brand3'); ?>
 
       <div class="col-md-4 col-xs-6 work">
-        <img class="img-responsive" src="<?php echo $brand3['image']; ?>" alt="">
+        <img class="img-responsive" src="<?php echo $brand3['image']; ?>" alt="vans logo">
         <div class="overlay"></div>
         <div class="work-content">
           <!-- <span>Category</span> -->
@@ -274,7 +274,7 @@
       <?php $brand4 = get_field('brand4'); ?>
 
       <div class="col-md-4 col-xs-6 work">
-        <img class="img-responsive" src="<?php echo $brand4['image']; ?>" alt="">
+        <img class="img-responsive" src="<?php echo $brand4['image']; ?>" alt="santa cruz logo">
         <div class="overlay"></div>
         <div class="work-content">
           <!-- <span>Category</span> -->
@@ -293,7 +293,7 @@
       <?php $brand5 = get_field('brand5'); ?>
 
       <div class="col-md-4 col-xs-6 work">
-        <img class="img-responsive" src="<?php echo $brand5['image']; ?>" alt="">
+        <img class="img-responsive" src="<?php echo $brand5['image']; ?>" alt="red dragon supply logo">
         <div class="overlay"></div>
         <div class="work-content">
           <!-- <span>Category</span> -->
@@ -312,7 +312,7 @@
       <?php $brand6 = get_field('brand6'); ?>
 
       <div class="col-md-4 col-xs-6 work">
-        <img class="img-responsive" src="<?php echo $brand6['image']; ?>" alt="">
+        <img class="img-responsive" src="<?php echo $brand6['image']; ?>" alt="baker skateboards logo">
         <div class="overlay"></div>
         <div class="work-content">
           <!-- <span>Category</span> -->
@@ -331,7 +331,7 @@
       <?php $brand7 = get_field('brand7'); ?>
 
       <div class="col-md-4 col-xs-6 work">
-        <img class="img-responsive" src="<?php echo $brand7['image']; ?>" alt="">
+        <img class="img-responsive" src="<?php echo $brand7['image']; ?>" alt="emerica logo">
         <div class="overlay"></div>
         <div class="work-content">
           <!-- <span>Category</span> -->
@@ -349,7 +349,7 @@
       <!-- Insert brand1 data for custom fields -->
       <?php $brand8 = get_field('brand8'); ?>
       <div class="col-md-4 col-xs-6 work">
-        <img class="img-responsive" src="<?php echo $brand8['image']; ?>" alt="">
+        <img class="img-responsive" src="<?php echo $brand8['image']; ?>" alt="dragon alliance logo">
         <div class="overlay"></div>
         <div class="work-content">
           <!-- <span>Category</span> -->
@@ -405,11 +405,11 @@
       <!-- About slider -->
       <div class="col-md-6">
         <div id="about-slider" class="owl-carousel owl-theme">
-          <img class="img-responsive" src="<?php bloginfo('template_directory');?>/img/team1.jpg" alt="">
-          <img class="img-responsive" src="<?php bloginfo('template_directory');?>/img/team2.jpg" alt="">
-          <img class="img-responsive" src="<?php bloginfo('template_directory');?>/img/team3.jpg" alt="">
-          <img class="img-responsive" src="<?php bloginfo('template_directory');?>/img/team4.jpg" alt="">
-          <img class="img-responsive" src="<?php bloginfo('template_directory');?>/img/team5.jpg" alt="">
+          <img class="img-responsive" src="<?php bloginfo('template_directory');?>/img/team1.jpg" alt="glass store front with skateboard decks hung up">
+          <img class="img-responsive" src="<?php bloginfo('template_directory');?>/img/team2.jpg" alt="skateboarders filming a line">
+          <img class="img-responsive" src="<?php bloginfo('template_directory');?>/img/team3.jpg" alt="skateboarder ollie air on mini ramp">
+          <img class="img-responsive" src="<?php bloginfo('template_directory');?>/img/team4.jpg" alt="close up of skateboarder tightening skateboard trucks">
+          <img class="img-responsive" src="<?php bloginfo('template_directory');?>/img/team5.jpg" alt="skateboarder popping a kickflip on sidewalk">
         </div>
       </div>
       <!-- /About slider -->
