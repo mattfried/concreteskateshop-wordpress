@@ -180,6 +180,12 @@ ul, ol {
     background: #1C1D21;
 }
 
+@media only screen and (max-width: 767px) {
+  .bg-img {
+    background-attachment: scroll;
+  }
+}
+
 
 /* --  section header  -- */
 
