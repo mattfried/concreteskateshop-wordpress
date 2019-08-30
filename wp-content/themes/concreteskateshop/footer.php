@@ -11,7 +11,7 @@
 
         <!-- footer logo -->
         <div class="footer-logo">
-          <a href="index.html"><img src="<?php bloginfo('template_directory');?>/img/concrete-logo.svg" alt="logo"></a>
+          <a href="#home"><img src="<?php bloginfo('template_directory');?>/img/concrete-logo.svg" alt="logo"></a>
         </div>
         <!-- /footer logo -->
 

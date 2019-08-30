@@ -39,7 +39,7 @@
         <div class="navbar-header">
           <!-- Logo -->
           <div class="navbar-brand">
-            <a href="index.html">
+            <a href="#home">
               <img class="logo" src="<?php bloginfo('template_directory');?>/img/concrete-logo.svg" alt="logo">
               <img class="logo-alt" src="<?php bloginfo('template_directory');?>/img/concrete-logo.svg" alt="logo">
             </a>
